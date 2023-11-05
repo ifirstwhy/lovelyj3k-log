@@ -4,7 +4,7 @@ const CONFIG = {
     name: "보름(손현경)",
     image: "/shkisme.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Backend Developer",
-    bio: "I develop everything you need😄",
+    bio: "I develop everything you need ✨",
     email: "shkisme0130@gmail.com",
     linkedin: "",
     github: "shkisme",

@@ -8,7 +8,8 @@ const CONFIG = {
     email: "shkisme0130@gmail.com",
     linkedin: "",
     github: "shkisme",
-    instagram: "shkisme"
+    instagram: "shkisme",
+    log: "https://heathered-dress-bc9.notion.site/9492547c587240e4b3eb460be6f3cdab?v=ea19e20b9e154318ae21d4e40bd2109c&pvs=4",
   },
   projects: [
     {

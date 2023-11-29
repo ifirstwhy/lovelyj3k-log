@@ -1,10 +1,10 @@
 import { CONFIG } from "site.config"
 import React from "react"
 import {
-  AiOutlineInstagram,
-  AiOutlineGithub,
-  AiOutlineMail,
-  AiFillLinkedin,
+    AiOutlineInstagram,
+    AiOutlineGithub,
+    AiOutlineMail,
+    AiFillLinkedin, AiOutlineHeart,
 } from "react-icons/ai"
 import styled from "@emotion/styled"
 
@@ -42,6 +42,16 @@ const ContactCard: React.FC = () => {
           >
             <AiOutlineMail className="icon" />
             <div className="name">email</div>
+          </a>
+        )}
+        {CONFIG.profile.log && (
+          <a
+              href={`${CONFIG.profile.log}`}
+              rel="noreferrer"
+              target="_blank"
+          >
+              <AiOutlineHeart className="icon" />
+              <div className="name">notion-log</div>
           </a>
         )}
         {CONFIG.profile.linkedin && (

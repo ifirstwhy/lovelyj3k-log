@@ -9,6 +9,7 @@ const CONFIG = {
     linkedin: "",
     github: "shkisme",
     instagram: "shkisme",
+    log: "https://heathered-dress-bc9.notion.site/9492547c587240e4b3eb460be6f3cdab?v=ea19e20b9e154318ae21d4e40bd2109c&pvs=4"
   },
   projects: [
     {
@@ -24,8 +25,8 @@ const CONFIG = {
 
   // CONFIG configration (required)
   link: "https://shkisme.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
-  lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  since: 2023, // If leave this empty, current year will be used.
+  lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)

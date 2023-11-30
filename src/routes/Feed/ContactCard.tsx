@@ -51,7 +51,7 @@ const ContactCard: React.FC = () => {
               target="_blank"
           >
               <AiOutlineHeart className="icon" />
-              <div className="name">notion-log</div>
+              <div className="name">notion log</div>
           </a>
         )}
         {CONFIG.profile.linkedin && (

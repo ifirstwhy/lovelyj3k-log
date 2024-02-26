@@ -13,8 +13,12 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `Keeper Homepage Renewal`,
+      name: `Keeper Homepage Renewal 🔐`,
       href: "https://github.com/KEEPER31337/Homepage-Back-R2",
+    },
+    {
+      name: `Doo Re 🌾`,
+      href: "https://github.com/BDD-CLUB/01-doo-re-back",
     },
   ],
   // blog setting (required)

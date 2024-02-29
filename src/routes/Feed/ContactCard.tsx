@@ -44,16 +44,6 @@ const ContactCard: React.FC = () => {
             <div className="name">email</div>
           </a>
         )}
-        {CONFIG.profile.log && (
-          <a
-              href={`${CONFIG.profile.log}`}
-              rel="noreferrer"
-              target="_blank"
-          >
-              <AiOutlineHeart className="icon" />
-              <div className="name">notion log</div>
-          </a>
-        )}
         {CONFIG.profile.linkedin && (
           <a
             href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin}`}

@@ -22,8 +22,8 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "shkisme-log",
-    description: "welcome to shkisme-log!",
+    title: "보름의 달빛 ✨",
+    description: "빛나는 개발자가 되기 위해...",
   },
 
   // CONFIG configration (required)

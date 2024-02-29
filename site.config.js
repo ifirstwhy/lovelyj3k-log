@@ -59,7 +59,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "shkisme/morethan-log",
+      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "shkisme/shkisme-log",
       "issue-term": "og:title",
       label: "💬 Comments",
     },

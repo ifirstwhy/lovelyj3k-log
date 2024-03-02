@@ -12,7 +12,7 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `Keeper Homepage Renewal 🔐`,
+      name: `Keeper Homepage 🔐`,
       href: "https://github.com/KEEPER31337/Homepage-Back-R2",
     },
     {

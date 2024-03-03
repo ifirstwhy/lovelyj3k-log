@@ -30,7 +30,7 @@ const CONFIG = {
   link: "https://shkisme.vercel.app",
   since: 2023, // If leave this empty, current year will be used.
   lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
-  ogImageGenerateURL: "https://github.com/shkisme/shkisme/blob/main/OG%20image.png", // The link to generate OG image, don't end with a slash
+  ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
   notionConfig: {

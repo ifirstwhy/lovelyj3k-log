@@ -5,7 +5,7 @@ import {TPost} from "../types";
 export default async function generateRssFeed(allPosts: TPost[]) {
     const site_url =
         process.env.NODE_ENV === "production"
-            ? "https://nameofwebsite"
+            ? "https://shkisme.vercel.app"
             : "http://localhost:3000";
 
     const feedOptions = {

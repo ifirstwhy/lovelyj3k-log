@@ -25,7 +25,7 @@ export default async function generateRssFeed(allPosts: TPost[]) {
         feed.item({
             title: post.title,
             description: post.summary!,
-            url: `${site_url}/posts/${post.slug}`,
+            url: `${site_url}/${post.slug}`,
             date: post.date.start_date,
         });
     });

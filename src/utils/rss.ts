@@ -1,7 +1,8 @@
 import fs from "fs";
 import RSS from "rss";
+import {TPost} from "../types";
 
-export default async function generateRssFeed(allPosts) {
+export default async function generateRssFeed(allPosts: TPost[]) {
     const site_url =
         process.env.NODE_ENV === "production"
             ? "https://nameofwebsite"
@@ -23,9 +24,9 @@ export default async function generateRssFeed(allPosts) {
     allPosts.map((post) => {
         feed.item({
             title: post.title,
-            description: post.excerpt,
+            description: post.summary!,
             url: `${site_url}/posts/${post.slug}`,
-            date: post.date,
+            date: post.date.start_date,
         });
     });
 

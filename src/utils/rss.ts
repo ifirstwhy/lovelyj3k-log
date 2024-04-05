@@ -22,9 +22,16 @@ export default async function generateRssFeed(allPosts: TPost[]) {
 
     // Add each individual post to the feed.
     allPosts.map((post) => {
+        const description = `
+        <div>
+            <img src="${post.thumbnail}" alt="image"/>
+            <div>${post.summary}</div>
+        </div>
+    `;
+
         feed.item({
             title: post.title,
-            description: post.summary!,
+            description: description,
             url: `${site_url}/${post.slug}`,
             date: post.date.start_date,
         });

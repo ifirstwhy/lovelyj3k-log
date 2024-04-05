@@ -9,183 +9,357 @@
             <link>http://localhost:3000</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 05 Apr 2024 11:22:36 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 05 Apr 2024 12:13:00 GMT</lastBuildDate>
         <atom:link href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 05 Apr 2024 11:22:36 GMT</pubDate>
+        <pubDate>Fri, 05 Apr 2024 12:13:00 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2024]]></copyright>
         <item>
             <title><![CDATA[함께 자라기]]></title>
-            <link>http://localhost:3000/posts/growing-up-together</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/growing-up-together</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fb3f19c7d-afbd-41bb-a565-6804c04eb34f%2F9921d757-61ae-4d98-ab5d-c17d54296cc9%2F%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-03-27_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_9.26.21.png?table=block&id=c1a9676f-11dc-42b3-905e-1623f6d4c99a&cache=v2" />
+            <div>회사에서 “함께 자라기” 책을 읽고 세미나를 진행했습니다. 책과 세미나에 대한 전반적인 내용과 제 생각을 정리해봤습니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/growing-up-together</link>
+            <guid isPermaLink="true">http://localhost:3000/growing-up-together</guid>
+            <pubDate>Wed, 27 Mar 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[BDD 세미나 기술 발표 후기 - BDDictionary]]></title>
-            <link>http://localhost:3000/posts/BDDictionary</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/BDDictionary</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fb3f19c7d-afbd-41bb-a565-6804c04eb34f%2Fc90f08a3-605b-4b12-8967-ac58baf10a6d%2FUntitled.png?table=block&id=b6716784-b9f5-4602-af74-a049ed2acaca&cache=v2" />
+            <div>BDD 첫 세미나에서 내가 만들어 본 객체 지향 소프트웨어를 주제로 기술 발표를 하였습니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/BDDictionary</link>
+            <guid isPermaLink="true">http://localhost:3000/BDDictionary</guid>
+            <pubDate>Tue, 05 Mar 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[첫 오픈소스 기여!]]></title>
-            <link>http://localhost:3000/posts/my-first-open-source-contribution</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/my-first-open-source-contribution</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fb3f19c7d-afbd-41bb-a565-6804c04eb34f%2F0aa1f712-f37b-4699-952d-9f6eb799fd77%2FUntitled.png?table=block&id=1164db20-2210-4be5-90f3-d3c1be58b2f8&cache=v2" />
+            <div>블로그 렌더링 오픈소스 morethan-log에 기여해보았습니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/my-first-open-source-contribution</link>
+            <guid isPermaLink="true">http://localhost:3000/my-first-open-source-contribution</guid>
+            <pubDate>Sat, 02 Mar 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[2024년 2월, 그리고 겨울방학 회고]]></title>
-            <link>http://localhost:3000/posts/2024-02-log</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/2024-02-log</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" />
+            <div>2024년 2월과 겨울방학 회고입니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/2024-02-log</link>
+            <guid isPermaLink="true">http://localhost:3000/2024-02-log</guid>
+            <pubDate>Thu, 29 Feb 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[스타트업 세차새차 백엔드 단기 아르바이트 후기]]></title>
-            <link>http://localhost:3000/posts/wash-car-new-car-part-time-job</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/wash-car-new-car-part-time-job</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fb3f19c7d-afbd-41bb-a565-6804c04eb34f%2Fc33db3d5-453c-4b19-b2c1-2fb5da65ee8d%2FUntitled.png?table=block&id=8b889b6c-bcf3-4f28-864a-e7bed6d3e179&cache=v2" />
+            <div>세차장 예약 플랫폼, 세차새차에서 단기 아르바이트로 근무하며 개발했던 일지와 후기를 작성했습니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/wash-car-new-car-part-time-job</link>
+            <guid isPermaLink="true">http://localhost:3000/wash-car-new-car-part-time-job</guid>
+            <pubDate>Tue, 27 Feb 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[두레 Redis 도입기]]></title>
-            <link>http://localhost:3000/posts/doore-redis</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/doore-redis</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" />
+            <div>두레 프로젝트에 Redis를 도입하게 된 배경과 그 과정을 기술했습니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/doore-redis</link>
+            <guid isPermaLink="true">http://localhost:3000/doore-redis</guid>
+            <pubDate>Thu, 22 Feb 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[캡스톤 디자인 경진대회 최우수상 수상!]]></title>
-            <link>http://localhost:3000/posts/capstone-design-awards</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/capstone-design-awards</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fb3f19c7d-afbd-41bb-a565-6804c04eb34f%2F37704cc6-fd17-4388-b05a-4f78ca0d425b%2FUntitled.png?table=block&id=ce6b9093-b30b-4771-b07d-df9e3ddc4d0b&cache=v2" />
+            <div>BDD 1기 프로젝트 두레 프로젝트로 캡스톤 디자인 경진대회에 참여하였고 최우수상을 수상하였습니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/capstone-design-awards</link>
+            <guid isPermaLink="true">http://localhost:3000/capstone-design-awards</guid>
+            <pubDate>Fri, 16 Feb 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[코틀린 코드 컨벤션 정리]]></title>
-            <link>http://localhost:3000/posts/kotlin-code-convention</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/kotlin-code-convention</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" />
+            <div>코틀린 공식문서에 나와있는 코드 컨벤션을 정리해봤습니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/kotlin-code-convention</link>
+            <guid isPermaLink="true">http://localhost:3000/kotlin-code-convention</guid>
+            <pubDate>Thu, 15 Feb 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[생애 첫 기술 면접, 그리고 인턴 합격]]></title>
-            <link>http://localhost:3000/posts/센디-면접-후기</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/센디-면접-후기</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" />
+            <div>생애 첫 기술면접을 스타트업 센디에서 보게 되었고, 합격한 후 후기를 작성했습니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/센디-면접-후기</link>
+            <guid isPermaLink="true">http://localhost:3000/센디-면접-후기</guid>
+            <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[2024년 1월 회고]]></title>
-            <link>http://localhost:3000/posts/2024-01-log</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/2024-01-log</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" />
+            <div>2024년 1월의 일일 로그 기록과 회고입니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/2024-01-log</link>
+            <guid isPermaLink="true">http://localhost:3000/2024-01-log</guid>
+            <pubDate>Wed, 31 Jan 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[프로젝트 기술을 택할 때 주의해야 할 것]]></title>
-            <link>http://localhost:3000/posts/choosing-project-technology</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/choosing-project-technology</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" />
+            <div>BDD 두레 프로젝트의 개발 컨벤션과 기술을 정하며 느꼈던 점에 대한 글입니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/choosing-project-technology</link>
+            <guid isPermaLink="true">http://localhost:3000/choosing-project-technology</guid>
+            <pubDate>Fri, 12 Jan 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[백트래킹 정리]]></title>
-            <link>http://localhost:3000/posts/algorithm-백트래킹-정리</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/algorithm-백트래킹-정리</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" />
+            <div>백트래킹 알고리즘을 사용하는 문제 풀이와 풀이법을 정리했습니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/algorithm-백트래킹-정리</link>
+            <guid isPermaLink="true">http://localhost:3000/algorithm-백트래킹-정리</guid>
+            <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[재귀 정리]]></title>
-            <link>http://localhost:3000/posts/algorithm-재귀-정리</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/algorithm-재귀-정리</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" />
+            <div>재귀 알고리즘을 사용하는 문제 풀이와 풀이법을 정리했습니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/algorithm-재귀-정리</link>
+            <guid isPermaLink="true">http://localhost:3000/algorithm-재귀-정리</guid>
+            <pubDate>Thu, 28 Dec 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[DFS 정리]]></title>
-            <link>http://localhost:3000/posts/algorithm-dfs-정리</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/algorithm-dfs-정리</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" />
+            <div>DFS 알고리즘을 정리했습니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/algorithm-dfs-정리</link>
+            <guid isPermaLink="true">http://localhost:3000/algorithm-dfs-정리</guid>
+            <pubDate>Tue, 26 Dec 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[BFS 정리]]></title>
-            <link>http://localhost:3000/posts/algorithm-bfs-정리</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/algorithm-bfs-정리</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" />
+            <div>BFS 알고리즘으로 출제되는 문제 유형과 풀이법을 정리했습니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/algorithm-bfs-정리</link>
+            <guid isPermaLink="true">http://localhost:3000/algorithm-bfs-정리</guid>
+            <pubDate>Mon, 25 Dec 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Spring Core]]></title>
-            <link>http://localhost:3000/posts/spring-study-spring-core</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/spring-study-spring-core</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" />
+            <div>3주차 미션을 수행하며 Spring 프레임워크의 Core를 학습해 보았습니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/spring-study-spring-core</link>
+            <guid isPermaLink="true">http://localhost:3000/spring-study-spring-core</guid>
+            <pubDate>Sun, 03 Dec 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Spring JDBC]]></title>
-            <link>http://localhost:3000/posts/spring-study-jdbc</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/spring-study-jdbc</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" />
+            <div>2주차 미션을 구현해보며 Spring JDBC를 익혀봅니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/spring-study-jdbc</link>
+            <guid isPermaLink="true">http://localhost:3000/spring-study-jdbc</guid>
+            <pubDate>Tue, 28 Nov 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Spring MVC]]></title>
-            <link>http://localhost:3000/posts/spring-play-ground-study-springMVC</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/spring-play-ground-study-springMVC</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" />
+            <div>스프링 플레이 그라운드 스터디에서 미션 1~4단계를 구현해보며 Spring MVC를 익혀봅니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/spring-play-ground-study-springMVC</link>
+            <guid isPermaLink="true">http://localhost:3000/spring-play-ground-study-springMVC</guid>
+            <pubDate>Wed, 22 Nov 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[알고리즘 문제 풀이 모음 (11/21 ~ 12/4)]]></title>
-            <link>http://localhost:3000/posts/algorithm-11-21-12-4-풀이</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/algorithm-11-21-12-4-풀이</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" />
+            <div>11/21 ~ 12/4 기간 동안 풀었던 4개의 알고리즘 문제 풀이입니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/algorithm-11-21-12-4-풀이</link>
+            <guid isPermaLink="true">http://localhost:3000/algorithm-11-21-12-4-풀이</guid>
+            <pubDate>Tue, 21 Nov 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[개발 동아리 BDD 개설]]></title>
-            <link>http://localhost:3000/posts/BDD-개설-배경</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/BDD-개설-배경</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" />
+            <div>부산대 개발 동아리 BDD를 개설하게 된 배경입니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/BDD-개설-배경</link>
+            <guid isPermaLink="true">http://localhost:3000/BDD-개설-배경</guid>
+            <pubDate>Sat, 18 Nov 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[[자동차 경주 게임] 2주차 미션]]></title>
-            <link>http://localhost:3000/posts/precourse-2주차-회고</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/precourse-2주차-회고</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" />
+            <div>우아한 테크코스 프리코스 2주차 미션 자동차 경주 게임을 구현한 후 작성하는 회고록 입니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/precourse-2주차-회고</link>
+            <guid isPermaLink="true">http://localhost:3000/precourse-2주차-회고</guid>
+            <pubDate>Fri, 10 Nov 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[스프링 플레이그라운드 스터디 시작!]]></title>
-            <link>http://localhost:3000/posts/spring-play-ground-study-intro</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/spring-play-ground-study-intro</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" />
+            <div>스프링 플레이그라운드 스터디를 시작하게 되었습니다!</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/spring-play-ground-study-intro</link>
+            <guid isPermaLink="true">http://localhost:3000/spring-play-ground-study-intro</guid>
+            <pubDate>Wed, 08 Nov 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[[숫자 야구 게임] 1주차 미션]]></title>
-            <link>http://localhost:3000/posts/precourse-1주차-회고</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/precourse-1주차-회고</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" />
+            <div>우아한 테크코스의 프리코스 1주차 숫자 야구 게임을 구현하는 과정과 느낀점을 작성했습니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/precourse-1주차-회고</link>
+            <guid isPermaLink="true">http://localhost:3000/precourse-1주차-회고</guid>
+            <pubDate>Tue, 31 Oct 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[JPA orphanRemoval 속성 사용 시 다량의 쿼리 발생]]></title>
-            <link>http://localhost:3000/posts/jpa-orphanRemoval-probelm</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/jpa-orphanRemoval-probelm</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" />
+            <div>JPA의 orphanRemoval 속성 사용 시 대량의 쿼리가 발생하는 문제를 설명합니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/jpa-orphanRemoval-probelm</link>
+            <guid isPermaLink="true">http://localhost:3000/jpa-orphanRemoval-probelm</guid>
+            <pubDate>Fri, 25 Aug 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[JPA에서 양쪽에 cascade를 걸면 발생하는 문제]]></title>
-            <link>http://localhost:3000/posts/jpa-cascade-problem</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/jpa-cascade-problem</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" />
+            <div>JPA에서 양쪽 부모에 cascade를 걸고 영속성에 부모, 자식 모두가 있는 상황에서 발생하는 문제를 설명합니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/jpa-cascade-problem</link>
+            <guid isPermaLink="true">http://localhost:3000/jpa-cascade-problem</guid>
+            <pubDate>Fri, 25 Aug 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[모든 건 Trade Off, 상황에 맞는 경험을 하자.]]></title>
-            <link>http://localhost:3000/posts/keeper-homepage-trade-off</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/keeper-homepage-trade-off</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fb3f19c7d-afbd-41bb-a565-6804c04eb34f%2F019f3da5-9eb7-4027-9798-30dea9df4850%2Fimage3.png?table=block&id=0445fd4c-feda-445a-9f82-5cacbb26c656&cache=v2" />
+            <div>키퍼 홈페이지를 약 1년간 운영한 후 작성한 회고 글</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/keeper-homepage-trade-off</link>
+            <guid isPermaLink="true">http://localhost:3000/keeper-homepage-trade-off</guid>
+            <pubDate>Thu, 24 Aug 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[동아리 홈페이지의 DB를 싹 날려보다...]]></title>
-            <link>http://localhost:3000/posts/keeper-homepage-db-boom</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/keeper-homepage-db-boom</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" />
+            <div>키퍼 홈페이지 디비 날린 후기입니다..</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/keeper-homepage-db-boom</link>
+            <guid isPermaLink="true">http://localhost:3000/keeper-homepage-db-boom</guid>
+            <pubDate>Sat, 19 Aug 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[IntelliJ에서 코딩 문제 풀이용 스니펫 등록하기]]></title>
-            <link>http://localhost:3000/posts/IntelliJ-Coding-Snippet</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/IntelliJ-Coding-Snippet</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fb3f19c7d-afbd-41bb-a565-6804c04eb34f%2Ff051f879-f7d9-4da8-acfc-cf2cae2ac408%2Fimage.png?table=block&id=d091cca0-0958-4dab-acd7-0464b6b74b73&cache=v2" />
+            <div>IntelliJ에서 코딩 문제풀이용 스니펫을 등록하는 방법을 설명합니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/IntelliJ-Coding-Snippet</link>
+            <guid isPermaLink="true">http://localhost:3000/IntelliJ-Coding-Snippet</guid>
+            <pubDate>Fri, 21 Jul 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Item 1 ~ Item 5 정리 ]]></title>
-            <link>http://localhost:3000/posts/effective-java-item-1-5</link>
-            <guid isPermaLink="true">http://localhost:3000/posts/effective-java-item-1-5</guid>
-            <pubDate>Invalid Date</pubDate>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" />
+            <div>이펙티브 자바 아이템 1~5를 정리했습니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/effective-java-item-1-5</link>
+            <guid isPermaLink="true">http://localhost:3000/effective-java-item-1-5</guid>
+            <pubDate>Fri, 10 Mar 2023 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

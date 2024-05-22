@@ -24,6 +24,8 @@ const CONFIG = {
   blog: {
     title: "보름의 달빛 ✨",
     description: "빛나는 개발자가 되기 위해...",
+    scheme: "light", // 'light' | 'dark'
+    followSystemTheme: false, // If true, the appearance will be changed according to the system theme on first visit your blog.
   },
 
   // CONFIG configration (required)

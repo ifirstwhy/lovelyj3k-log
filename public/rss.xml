@@ -9,10 +9,82 @@
             <link>http://localhost:3000</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 22 Apr 2024 14:55:45 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 May 2024 14:31:08 GMT</lastBuildDate>
         <atom:link href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 22 Apr 2024 14:55:45 GMT</pubDate>
+        <pubDate>Wed, 22 May 2024 14:31:08 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2024]]></copyright>
+        <item>
+            <title><![CDATA[ElasticSearch를 활용한 주소 검색 시스템 개발기 (2)]]></title>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" alt="image"/>
+            <div>ElasticSearch를 활용한 주소 검색 시스템 개발 과정 중 검색 정확도 개선에 대해 작성해보았습니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/ElasticSearch-Juso-Search-2</link>
+            <guid isPermaLink="true">http://localhost:3000/ElasticSearch-Juso-Search-2</guid>
+            <pubDate>Sun, 19 May 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ElasticSearch를 활용한 주소 검색 시스템 개발기 (1)]]></title>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" alt="image"/>
+            <div>ElasticSearch를 활용한 주소 검색 시스템 개발 과정 중 마주한 주소 데이터와 스프링배치, 인프라에 대해 작성해보았습니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/ElasticSearch-Juso-Search-1</link>
+            <guid isPermaLink="true">http://localhost:3000/ElasticSearch-Juso-Search-1</guid>
+            <pubDate>Sat, 18 May 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[2024년 4월 회고]]></title>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" alt="image"/>
+            <div>2024년 4월 회고입니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/2024-04-log</link>
+            <guid isPermaLink="true">http://localhost:3000/2024-04-log</guid>
+            <pubDate>Tue, 30 Apr 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[육각형 개발자]]></title>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" alt="image"/>
+            <div>육각형 개발자 책을 읽고 세미나를 진행했습니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/hexagon-developer</link>
+            <guid isPermaLink="true">http://localhost:3000/hexagon-developer</guid>
+            <pubDate>Fri, 26 Apr 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[gRPC 스프링 서버 배포 트러블슈팅]]></title>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" alt="image"/>
+            <div>gRPC 스프링 서버와 envoy proxy 서버를 배포하며 겪었던 트러블슈팅을 정리해봤습니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/grpc-port-mapping-troubleshooting</link>
+            <guid isPermaLink="true">http://localhost:3000/grpc-port-mapping-troubleshooting</guid>
+            <pubDate>Wed, 24 Apr 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[AWS ECS 무중단 CI/CD 환경 구축하기]]></title>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" alt="image"/>
+            <div>AWS ECS에 서비스를 배포하는 과정을 자동화한 CICD를 구축해보았습니다.</div>
+        </div>
+    ]]></description>
+            <link>http://localhost:3000/aws-ecs-cicd</link>
+            <guid isPermaLink="true">http://localhost:3000/aws-ecs-cicd</guid>
+            <pubDate>Tue, 23 Apr 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[깃허브 리드미에 최신 글 띄워주기]]></title>
             <description><![CDATA[
@@ -54,7 +126,7 @@
             <description><![CDATA[
         <div>
             <img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fb3f19c7d-afbd-41bb-a565-6804c04eb34f%2F9921d757-61ae-4d98-ab5d-c17d54296cc9%2F%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2024-03-27_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_9.26.21.png?table=block&id=c1a9676f-11dc-42b3-905e-1623f6d4c99a&cache=v2" alt="image"/>
-            <div>회사에서 “함께 자라기” 책을 읽고 세미나를 진행했습니다. 책과 세미나에 대한 전반적인 내용과 제 생각을 정리해봤습니다.</div>
+            <div>“함께 자라기” 책을 읽고 세미나를 진행했습니다. 책과 세미나에 대한 전반적인 내용과 제 생각을 정리해봤습니다.</div>
         </div>
     ]]></description>
             <link>http://localhost:3000/growing-up-together</link>
@@ -62,7 +134,7 @@
             <pubDate>Wed, 27 Mar 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Rest vs RPC]]></title>
+            <title><![CDATA[REST vs RPC]]></title>
             <description><![CDATA[
         <div>
             <img src="undefined" alt="image"/>
@@ -156,18 +228,6 @@
             <link>http://localhost:3000/kotlin-code-convention</link>
             <guid isPermaLink="true">http://localhost:3000/kotlin-code-convention</guid>
             <pubDate>Thu, 15 Feb 2024 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[생애 첫 기술 면접, 그리고 인턴 합격]]></title>
-            <description><![CDATA[
-        <div>
-            <img src="undefined" alt="image"/>
-            <div>생애 첫 기술면접을 스타트업 센디에서 보게 되었고, 합격한 후 후기를 작성했습니다.</div>
-        </div>
-    ]]></description>
-            <link>http://localhost:3000/센디-면접-후기</link>
-            <guid isPermaLink="true">http://localhost:3000/센디-면접-후기</guid>
-            <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[2024년 1월 회고]]></title>

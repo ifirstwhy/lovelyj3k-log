@@ -33,36 +33,37 @@ const TagList: React.FC<Props> = () => {
     }
   }
 
-  const tagContents = () => {
-    let mainTagIndex = 0
-    return (
-        <>
-          {Array.from(tags).map(([key, value]) => {
-            mainTagIndex++
-            return (
-                <li key={String(key)} className="mainTags">
-                  <div>{key}</div>
-                  {value.map((subTag, index) => {
-                    const originTag: String =
-                        mainTagIndex + "::" + key + "::" + subTag
+    const tagContents = () => {
+        let mainTagIndex = 0
+        return (
+            <>
+                {Array.from(tags).map(([key, value]) => {
+                    mainTagIndex++
                     return (
-                        <a
-                            key={index}
-                            data-active={originTag === currentTag}
-                            onClick={() => handleClickTag(originTag)}
-                        >
-                          - {subTag}
-                        </a>
+                        <li key={String(key)} className="mainTags">
+                            <div>{key}</div>
+                            {value
+                                .filter(subTag => subTag !== "Pinned") // Pinned 태그를 필터링
+                                .map((subTag, index) => {
+                                    const originTag = mainTagIndex + "::" + key + "::" + subTag
+                                    return (
+                                        <a
+                                            key={index}
+                                            data-active={originTag === currentTag}
+                                            onClick={() => handleClickTag(originTag)}
+                                        >
+                                            - {subTag}
+                                        </a>
+                                    )
+                                })}
+                        </li>
                     )
-                  })}
-                </li>
-            )
-          })}
-        </>
-    )
-  }
+                })}
+            </>
+        )
+    }
 
-  useEffect(() => {
+    useEffect(() => {
     const tempMainTags = new Map<String, String[]>()
     Object.keys(data)
         .sort() //순서대로 정렬

@@ -1,5 +1,6 @@
 import PostCard from "src/routes/Feed/PostList/PostCard"
 import React, { useMemo } from "react"
+import { useRouter } from "next/router"
 import usePostsQuery from "src/hooks/usePostsQuery"
 import styled from "@emotion/styled"
 import { filterPosts } from "./filterPosts"
@@ -10,7 +11,11 @@ type Props = {
 }
 
 const PinnedPosts: React.FC<Props> = ({ q }) => {
+    const router = useRouter()
     const data = usePostsQuery()
+
+    const currentTag = `${router.query.tag || ``}` || undefined
+    const currentCategory = `${router.query.category || ``}` || DEFAULT_CATEGORY
 
     const filteredPosts = useMemo(() => {
         const baseFiltered = filterPosts({
@@ -21,6 +26,8 @@ const PinnedPosts: React.FC<Props> = ({ q }) => {
         })
         return baseFiltered.filter((post) => post.tags?.includes("6::기타::Pinned"))
     }, [data, q])
+
+    if (currentTag || currentCategory !== DEFAULT_CATEGORY) return null
 
     if (filteredPosts.length === 0) return null
 

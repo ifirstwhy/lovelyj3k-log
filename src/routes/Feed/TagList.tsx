@@ -42,8 +42,7 @@ const TagList: React.FC<Props> = () => {
                     return (
                         <li key={String(key)} className="mainTags">
                             <div>{key}</div>
-                            {value
-                                .filter(subTag => subTag !== "Pinned") // Pinned 태그를 필터링
+                            {value.filter(subTag => subTag !== "Pinned") // Pinned 태그를 필터링
                                 .map((subTag, index) => {
                                     const originTag = mainTagIndex + "::" + key + "::" + subTag
                                     return (

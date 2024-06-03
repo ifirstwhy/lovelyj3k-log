@@ -51,7 +51,7 @@ const PostCard: React.FC<Props> = ({ data, showMedia }) => {
           <div className="tags">
             { showMedia && data.tags &&
               data.tags
-                  .filter((tag: string) => tag !== "6::🛠️기타::Pinned")
+                  .filter((tag: string) => tag !== "6::🛠️ 기타::Pinned")
                   .map((tag: string, idx: number) => (
                 <Tag key={idx}>{tag}</Tag>
               ))}

@@ -33,6 +33,10 @@ const TagList: React.FC<Props> = () => {
     }
   }
 
+    const handleClick = (value: string) => {
+        router.push(`/?category=${value}`)
+    }
+
     const tagContents = () => {
         let mainTagIndex = 0
         return (
@@ -41,7 +45,10 @@ const TagList: React.FC<Props> = () => {
                     mainTagIndex++
                     return (
                         <li key={String(key)} className="mainTags">
-                            <div>{key}</div>
+                            <div
+                                onClick={() => handleClick(String(key))}
+                            >{key}
+                            </div>
                             {value.filter(subTag => subTag !== "Pinned") // Pinned 태그를 필터링
                                 .map((subTag, index) => {
                                     const originTag = mainTagIndex + "::" + key + "::" + subTag
@@ -147,6 +154,18 @@ const StyledWrapper = styled.div`
         color: ${({ theme }) => theme.colors.gray11};
         flex-shrink:0;
         cursor:default;
+
+        :hover {
+          background-color: ${({ theme }) => theme.colors.gray4};
+        }
+        &[data-active="true"] {
+          color: ${({ theme }) => theme.colors.gray12};
+          background-color: ${({ theme }) => theme.colors.gray4};
+
+          :hover {
+            background-color: ${({ theme }) => theme.colors.gray4};
+          }
+        }
       }
 
     a {

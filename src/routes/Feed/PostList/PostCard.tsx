@@ -8,10 +8,11 @@ import Category from "../../../components/Category"
 import styled from "@emotion/styled"
 
 type Props = {
-  data: TPost
+  data: TPost,
+  showMedia: boolean
 }
 
-const PostCard: React.FC<Props> = ({ data }) => {
+const PostCard: React.FC<Props> = ({ data, showMedia }) => {
   const category = (data.category && data.category?.[0]) || undefined
 
   return (
@@ -22,7 +23,7 @@ const PostCard: React.FC<Props> = ({ data }) => {
             <Category>{category}</Category>
           </div>
         )}
-        { data.thumbnail && (
+        { showMedia && data.thumbnail && (
           <div className="thumbnail">
             <Image
               src={data.thumbnail}
@@ -32,7 +33,7 @@ const PostCard: React.FC<Props> = ({ data }) => {
             />
           </div>
         )}
-        <div data-thumb={!!data.thumbnail} data-category={!!category} className="content">
+        <div data-thumb={showMedia && !!data.thumbnail} data-category={!!category} className="content">
           <header className="top">
             <h2>{data.title}</h2>
           </header>

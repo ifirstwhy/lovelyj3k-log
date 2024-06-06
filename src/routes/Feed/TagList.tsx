@@ -13,27 +13,10 @@ const TagList: React.FC<Props> = () => {
   const [tags, setTags] = useState(new Map<String, String[]>())
 
   const handleClickTag = (value: any) => {
-    // delete
-    if (currentTag === value) {
-      router.push({
-        query: {
-          ...router.query,
-          tag: undefined,
-        },
-      })
-    }
-    // add
-    else {
-      router.push({
-        query: {
-          ...router.query,
-          tag: value,
-        },
-      })
-    }
+      router.push(`/?tag=${value}`)
   }
 
-    const handleClick = (value: string) => {
+    const handleClickCategory = (value: string) => {
         router.push(`/?category=${value}`)
     }
 
@@ -46,7 +29,7 @@ const TagList: React.FC<Props> = () => {
                     return (
                         <li key={String(key)} className="mainTags">
                             <div
-                                onClick={() => handleClick(String(key))}
+                                onClick={() => handleClickCategory(String(key))}
                             >{key}
                             </div>
                             {value.filter(subTag => subTag !== "Pinned") // Pinned 태그를 필터링

@@ -18,7 +18,7 @@ const PostCard: React.FC<Props> = ({ data, showMedia }) => {
   return (
     <StyledWrapper href={`/${data.slug}`}>
       <article>
-        { category && (
+        { showMedia && category && (
           <div className="category">
             <Category>{category}</Category>
           </div>
@@ -33,7 +33,7 @@ const PostCard: React.FC<Props> = ({ data, showMedia }) => {
             />
           </div>
         )}
-        <div data-thumb={showMedia && !!data.thumbnail} data-category={!!category} className="content">
+        <div data-thumb={showMedia && !!data.thumbnail} data-category={showMedia && !!category} className="content">
           <header className="top">
             <h2>{data.title}</h2>
           </header>
@@ -49,9 +49,7 @@ const PostCard: React.FC<Props> = ({ data, showMedia }) => {
             <p>{data.summary}</p>
           </div>
           <div className="tags">
-            { showMedia && data.tags &&
-              data.tags
-                  .filter((tag: string) => tag !== "6::🛠️ 기타::Pinned")
+            { data.tags && data.tags.filter((tag: string) => tag !== "6::🛠️ 기타::Pinned")
                   .map((tag: string, idx: number) => (
                 <Tag key={idx}>{tag}</Tag>
               ))}

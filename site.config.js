@@ -1,79 +1,83 @@
 const CONFIG = {
-  // profile setting (required) 
+  // 프로필 설정
   profile: {
-    name: "보름(손현경)",
-    image: "/shkisme.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "Backend Engineer",
-    bio: "빛나는 개발자가 되기 위해...✨",
-    email: "shkisme0130@gmail.com",
-    linkedin: "shkisme",
-    github: "shkisme",
-    instagram: "shkisme",
+    name: "J3K",
+    image: "/avatar.png", // 아바타 이미지 경로
+    role: "<Full-stack LAB/>",
+    bio: "",
+    email: "",
+    linkedin: "",
+    github: "ifirstwhy",
+    instagram: "lovelyj3k",
   },
+
+  // 프로젝트 설정
   projects: [
     {
-      name: `Keeper Homepage 🔐`,
-      href: "https://github.com/KEEPER31337/Homepage-Back-R2",
-    },
-    {
-      name: `Doo Re 🌾`,
-      href: "https://github.com/BDD-CLUB/01-doo-re-back",
+      name: `lovelyj3k`,
+      href: "https://ifirstwhy.github.io",
     },
   ],
-  // blog setting (required)
+
+  // 블로그 설정
   blog: {
-    title: "보름의 달빛 ✨",
-    description: "빛나는 개발자가 되기 위해...",
-    scheme: "light", // 'light' | 'dark'
-    followSystemTheme: false, // If true, the appearance will be changed according to the system theme on first visit your blog.
+    title: "to. lovelyj3k ✨",
+    description: "welcome to lovelyj3k!",
+    scheme: "dark", // 테마 설정 ('light' | 'dark' | 'system')
+    followSystemTheme: false, // 시스템 테마에 따라 블로그 테마를 자동으로 변경
   },
 
-  // CONFIG configration (required)
-  link: "https://shkisme.vercel.app",
-  since: 2023, // If leave this empty, current year will be used.
-  lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
-  ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
+  // CONFIG 설정
+  link: "https://lovelyj3k.vercel.app/",
+  since: 2024, // 사용 연도
+  lang: "ko-KR", // 언어 설정 (예: 'en-US', 'zh-CN', 'ko-KR')
+  ogImageGenerateURL: "https://og-image-korean.vercel.app", // OG 이미지 생성 URL
 
-  // notion configuration (required)
+  // Notion 설정
   notionConfig: {
     pageId: process.env.NOTION_PAGE_ID,
   },
 
-  // plugin configuration (optional)
+  // 플러그인 설정
   googleAnalytics: {
     enable: true,
     config: {
       measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
     },
   },
+
   googleSearchConsole: {
     enable: true,
     config: {
       siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
     },
   },
+
   naverSearchAdvisor: {
     enable: false,
     config: {
       siteVerification: process.env.NEXT_PUBLIC_NAVER_SITE_VERIFICATION || "",
     },
   },
+
   utterances: {
     enable: true,
     config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "shkisme/shkisme-log",
+      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "ifirstwhy/lovelyj3k-log",
       "issue-term": "og:title",
     },
   },
+
   cusdis: {
     enable: false,
     config: {
       host: "https://cusdis.com",
-      appid: "", // Embed Code -> data-app-id value
+      appid: "", // Embed Code -> data-app-id 값
     },
   },
-  isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
-  revalidateTime: 1, // revalidate time for [slug], index
+
+  isProd: process.env.VERCEL_ENV === "production", // 환경 구분 (개발/생산)
+  revalidateTime: 1, // [slug], index의 재검증 시간
 }
 
 module.exports = { CONFIG }

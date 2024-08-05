@@ -11,6 +11,7 @@ import { queryKey } from "src/constants/queryKey"
 import { dehydrate } from "@tanstack/react-query"
 import usePostQuery from "src/hooks/usePostQuery"
 import { FilterPostsOptions } from "src/libs/utils/notion/filterPosts"
+import superjson from 'superjson';
 
 const filter: FilterPostsOptions = {
   acceptStatus: ["Public", "PublicOnDetail"],
@@ -23,13 +24,14 @@ export const getStaticPaths = async () => {
 
   return {
     paths: filteredPost.map((row) => `/${row.slug}`),
+    
     fallback: true,
   }
 }
 
 export const getStaticProps: GetStaticProps = async (context) => {
   const slug = context.params?.slug
-
+  
   const posts = await getPosts()
   const feedPosts = filterPosts(posts)
   await queryClient.prefetchQuery(queryKey.posts(), () => feedPosts)
@@ -46,6 +48,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
   return {
     props: {
       dehydratedState: dehydrate(queryClient),
+      posts: superjson.serialize(posts), // Superjson을 사용하여 직렬화
     },
     revalidate: CONFIG.revalidateTime,
   }

@@ -77,7 +77,7 @@ const CONFIG = {
   },
 
   isProd: process.env.VERCEL_ENV === "production", // 환경 구분 (개발/생산)
-  revalidateTime: 1, // [slug], index의 재검증 시간
+  revalidateTime: 10 * 6, // revalidate time for [slug], index
 }
 
 module.exports = { CONFIG }

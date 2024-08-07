@@ -1,1 +1,234 @@
 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Blog posts | RSS Feed]]></title>
+        <description><![CDATA[Welcome to this blog posts!]]></description>
+        <link>https://lovelyj3k.vercel.app</link>
+        <image>
+            <url>https://lovelyj3k.vercel.app/logo.jpeg</url>
+            <title>Blog posts | RSS Feed</title>
+            <link>https://lovelyj3k.vercel.app</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Wed, 07 Aug 2024 10:46:15 GMT</lastBuildDate>
+        <atom:link href="https://lovelyj3k.vercel.app/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Wed, 07 Aug 2024 10:46:15 GMT</pubDate>
+        <copyright><![CDATA[All rights reserved 2024]]></copyright>
+        <item>
+            <title><![CDATA[Notion으로 나만의 블로그 만들기 with AI]]></title>
+            <description><![CDATA[
+        <div>
+            <img src="https://www.notion.so/image/https%3A%2F%2Fvelog.velcdn.com%2Fimages%2Fseungchan__y%2Fpost%2F57d6a328-ba72-4883-be88-00ed9a0e4138%2Fimage.jpeg?table=block&id=0827b713-60aa-4e23-9dcb-85d7ff1edd8b&cache=v2" alt="image"/>
+            <div>Notion을 활용하여 개인 블로그를 만드는 여정을 다룬 포스트로, 코드와 편리함을 통해 나만의 이야기를 완성하는 과정을 설명합니다. 참고 자료로는 Notion 블로그 제작과 관련된 여러 링크가 포함되어 있습니다.</div>
+        </div>
+    ]]></description>
+            <link>https://lovelyj3k.vercel.app/notion-blog-creation</link>
+            <guid isPermaLink="true">https://lovelyj3k.vercel.app/notion-blog-creation</guid>
+            <pubDate>Wed, 07 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[도전하는 스타트업, AWS 크레딧 지원과 노션 6개월 무료체험]]></title>
+            <description><![CDATA[
+        <div>
+            <img src="https://www.notion.so/image/https%3A%2F%2Fwww.allbusiness.com%2Fasset%2F2017%2F08%2Fstartup-concept.jpg?table=block&id=32e6e0a7-2b33-4040-bb87-f94c3ee3e918&cache=v2" alt="image"/>
+            <div>스타트업을 지원하기 위해 AWS 크레딧 $5000과 협업툴 노션의 6개월 무료 체험 기회를 제공하며, 이를 통해 성장을 도모할 수 있는 귀한 기회가 강조되고 있습니다. 성공을 위한 꿀팁과 함께 도전의 길을 함께하자는 메시지가 담겨 있습니다.</div>
+        </div>
+    ]]></description>
+            <link>https://lovelyj3k.vercel.app/startups-aws-credits</link>
+            <guid isPermaLink="true">https://lovelyj3k.vercel.app/startups-aws-credits</guid>
+            <pubDate>Mon, 05 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[code-server 이거 진짜 신기하네요 ㅎㅎ > SIR]]></title>
+            <description><![CDATA[
+        <div>
+            <img src="https://www.notion.so/image/https%3A%2F%2Fsir.kr%2Fdata%2Feditor%2F2008%2F3535239587_1597773073.6637.png?table=block&id=12e53447-1a64-4fd2-85d3-8819d759967f&cache=v2" alt="image"/>
+            <div>code-server를 설치하여 웹브라우저에서 코딩할 수 있는 가능성을 소개하는 글입니다.</div>
+        </div>
+    ]]></description>
+            <link>https://lovelyj3k.vercel.app/code-server</link>
+            <guid isPermaLink="true">https://lovelyj3k.vercel.app/code-server</guid>
+            <pubDate>Sun, 04 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[ GIT ACTION ] Organization Repo Vercel 자동배포하기]]></title>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" alt="image"/>
+            <div>깃 액션으로 vercel 자동배포하기</div>
+        </div>
+    ]]></description>
+            <link>https://lovelyj3k.vercel.app/git-action-vercel-auto-deploy</link>
+            <guid isPermaLink="true">https://lovelyj3k.vercel.app/git-action-vercel-auto-deploy</guid>
+            <pubDate>Sat, 03 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[ Next.js ] 같은 페이지내 이동시 로딩 처리하기]]></title>
+            <description><![CDATA[
+        <div>
+            <img src="https://www.notion.so/image/https%3A%2F%2Fwww.notion.so%2Fimage%2Fhttps%253A%252F%252Fprod-files-secure.s3.us-west-2.amazonaws.com%252F2b4cb716-f802-4b83-abde-d01845e32152%252Fc2a818e5-8d71-46d6-b065-9d84a2a1a6e8%252FLoading_icon.gif%3Ftable%3Dblock%26id%3D2a9b76da-067d-43ff-87f6-ef3b32ed55b1%26cache%3Dv2?table=block&id=d7663ff6-568a-4189-a790-1b53a6e57b9a&cache=v2" alt="image"/>
+            <div>next.js 에서 같은 페이지 내 이동 처리하기</div>
+        </div>
+    ]]></description>
+            <link>https://lovelyj3k.vercel.app/next.js-loading-handling</link>
+            <guid isPermaLink="true">https://lovelyj3k.vercel.app/next.js-loading-handling</guid>
+            <pubDate>Sat, 03 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[클라우드플레어 API를 사용하는 방법]]></title>
+            <description><![CDATA[
+        <div>
+            <img src="https://www.notion.so/image/https%3A%2F%2Fimg1.daumcdn.net%2Fthumb%2FR800x0%2F%3Fscode%3Dmtistory2%26fname%3Dhttps%253A%252F%252Fblog.kakaocdn.net%252Fdn%252FGBsfC%252FbtsF2v6QvPG%252FQ4pldi36PDLntMjcGW8kxk%252Fimg.webp?table=block&id=623e3c86-d2bf-4d05-a557-0c1e3deb5f59&cache=v2" alt="image"/>
+            <div>이 문서는 Cloudflare API를 사용하여 도메인 설정 및 관리 작업을 수행하는 방법에 대해 설명합니다.</div>
+        </div>
+    ]]></description>
+            <link>https://lovelyj3k.vercel.app/cloudflare-api</link>
+            <guid isPermaLink="true">https://lovelyj3k.vercel.app/cloudflare-api</guid>
+            <pubDate>Sat, 03 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[draft] Cloudflare에서 오리진 도메인 요청을 www 도메인으로 리디렉션하고 원래 경로와 쿼리 문자열을 유지하는 방법]]></title>
+            <description><![CDATA[
+        <div>
+            <img src="https://www.notion.so/image/https%3A%2F%2Fimg1.daumcdn.net%2Fthumb%2FR800x0%2F%3Fscode%3Dmtistory2%26fname%3Dhttps%253A%252F%252Fblog.kakaocdn.net%252Fdn%252F7UxOq%252FbtsIsO4eHvy%252FJ78RiwQ0TaVKZ830UkcgO0%252Fimg.webp?table=block&id=c5c8b270-1a9e-4491-8d41-c88089373cf9&cache=v2" alt="image"/>
+            <div>Cloudflare를 사용하여 오리진 도메인 요청을 www 도메인으로 리디렉션하면서 원래의 경로와 쿼리 문자열을 유지하는 방법을 설명합니다.</div>
+        </div>
+    ]]></description>
+            <link>https://lovelyj3k.vercel.app/cloudflare-redirect</link>
+            <guid isPermaLink="true">https://lovelyj3k.vercel.app/cloudflare-redirect</guid>
+            <pubDate>Sat, 03 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[첫 오픈소스 기여!]]></title>
+            <description><![CDATA[
+        <div>
+            <img src="https://www.notion.so/image/https%3A%2F%2Fwww.notion.so%2Fimage%2Fhttps%253A%252F%252Fprod-files-secure.s3.us-west-2.amazonaws.com%252Fb3f19c7d-afbd-41bb-a565-6804c04eb34f%252F0aa1f712-f37b-4699-952d-9f6eb799fd77%252FUntitled.png%3Ftable%3Dblock%26id%3D1164db20-2210-4be5-90f3-d3c1be58b2f8%26cache%3Dv2?table=block&id=1a3d41c6-f1b2-483f-92db-c8897f4acb27&cache=v2" alt="image"/>
+            <div>이번 글에서는 노션 API를 활용한 블로그 렌더링 오픈소스 morethan-log에 처음으로 기여한 경험을 공유합니다.</div>
+        </div>
+    ]]></description>
+            <link>https://lovelyj3k.vercel.app/first-open-source-contribution</link>
+            <guid isPermaLink="true">https://lovelyj3k.vercel.app/first-open-source-contribution</guid>
+            <pubDate>Sat, 03 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[[TIP] vi 편집기에서 root권한 파일저장]]></title>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" alt="image"/>
+            <div>vi 편집기에서 일반 사용자로 파일을 수정한 후 root 권한으로 저장하는 방법을 설명합니다.</div>
+        </div>
+    ]]></description>
+            <link>https://lovelyj3k.vercel.app/file-saving-with-vi-as-root</link>
+            <guid isPermaLink="true">https://lovelyj3k.vercel.app/file-saving-with-vi-as-root</guid>
+            <pubDate>Sat, 03 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[깃허브에 폴더&프로젝트 업로드]]></title>
+            <description><![CDATA[
+        <div>
+            <img src="https://www.notion.so/image/https%3A%2F%2Fvelog.velcdn.com%2Fimages%2Fpoemsilver99%2Fpost%2Fa14f771a-1b38-4b17-95df-71795610472f%2Fimage.png?table=block&id=5e3ed215-911d-4d9f-a71c-f4801262480f&cache=v2" alt="image"/>
+            <div>이 문서는 로컬 저장소에서 깃허브 원격 저장소로 폴더를 업로드하는 방법을 설명합니다.</div>
+        </div>
+    ]]></description>
+            <link>https://lovelyj3k.vercel.app/github-uploading-folders</link>
+            <guid isPermaLink="true">https://lovelyj3k.vercel.app/github-uploading-folders</guid>
+            <pubDate>Sat, 03 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[구름 위의 오디세이: 클라우드 비용 최적화의 서사시]]></title>
+            <description><![CDATA[
+        <div>
+            <img src="https://www.notion.so/image/https%3A%2F%2Ffile.f-lab.kr%2Fblog%2F2efc036f-3cad-49a6-a76c-285182bfd2eb-pyDEYIP3r00108Pa.jpg?table=block&id=096199eb-ad03-4d84-9756-12bdb5a4327d&cache=v2" alt="image"/>
+            <div>클라우드 비용 최적화를 주제로 한 포스트로, 사용량 모니터링과 낭비 감소를 통해 효율성을 높이는 여정을 다룹니다. 데이터 분석을 통해 비용 절감을 목표로 하며, 클라우드 환경에서의 최적화 방법을 탐구합니다.</div>
+        </div>
+    ]]></description>
+            <link>https://lovelyj3k.vercel.app/cloud-cost-optimization</link>
+            <guid isPermaLink="true">https://lovelyj3k.vercel.app/cloud-cost-optimization</guid>
+            <pubDate>Fri, 02 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[DevOps 여정: 개발과 운영의 조화로운 만남]]></title>
+            <description><![CDATA[
+        <div>
+            <img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fac7e27dc-7967-49ca-a9b3-55e73ce2765e%2F5b7bf88b-689e-426e-89ff-a7a0326b1da3%2F%25E1%2584%2583%25E1%2585%25A1%25E1%2584%258B%25E1%2585%25AE%25E1%2586%25AB%25E1%2584%2585%25E1%2585%25A9%25E1%2584%2583%25E1%2585%25B3_(1).webp?table=block&id=c417dc50-ec51-4392-aa18-bdeebd9d841f&cache=v2" alt="image"/>
+            <div>DevOps는 개발과 운영의 통합을 통해 효율적인 소프트웨어 배포와 관리를 목표로 하며, 빌드, 테스트, 배포의 모든 단계에서 협업과 자동화를 강조합니다. 성공적인 DevOps 구현을 위해 개발자와 운영자는 서로의 영역을 이해하고 협력해야 하며, 보안도 중요한 요소로 다루어져야 합니다.</div>
+        </div>
+    ]]></description>
+            <link>https://lovelyj3k.vercel.app/devops-journey</link>
+            <guid isPermaLink="true">https://lovelyj3k.vercel.app/devops-journey</guid>
+            <pubDate>Thu, 01 Aug 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[AWS Ubuntu 24.04 LTS 에서 웹서버(NGINX + PHP-FPM + MySQL) 구성하기]]></title>
+            <description><![CDATA[
+        <div>
+            <img src="https://www.notion.so/image/https%3A%2F%2Fvelog.velcdn.com%2Fimages%2Fichubtou%2Fpost%2F393871a8-ed44-4925-a680-f160ea74ecde%2Fimage.webp?table=block&id=8c835325-7c40-435e-8e6c-33aad4d2eb27&cache=v2" alt="image"/>
+            <div>Ubuntu 24.04 LTS에서 NGINX, PHP-FPM, MySQL 웹서버를 구성하는 방법을 설명하며, 새 사용자 계정 생성, 비밀번호 설정, sudo 권한 부여, SSH 서버 설정 변경 및 원격 서버 접속 방법을 포함한 명령어를 제시합니다.</div>
+        </div>
+    ]]></description>
+            <link>https://lovelyj3k.vercel.app/ubuntu-web-server-setup</link>
+            <guid isPermaLink="true">https://lovelyj3k.vercel.app/ubuntu-web-server-setup</guid>
+            <pubDate>Thu, 18 Jul 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dynamically create sitemap.xml in Next.js]]></title>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" alt="image"/>
+            <div>Let's load the sitemap dynamically</div>
+        </div>
+    ]]></description>
+            <link>https://lovelyj3k.vercel.app/hot-to-make-sitemap-in-next-js</link>
+            <guid isPermaLink="true">https://lovelyj3k.vercel.app/hot-to-make-sitemap-in-next-js</guid>
+            <pubDate>Fri, 01 Jul 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Handling GraphQL queries in apollo client]]></title>
+            <description><![CDATA[
+        <div>
+            <img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fac7e27dc-7967-49ca-a9b3-55e73ce2765e%2F76bfd580-fa91-4171-a89c-0217c96f98ab%2FKakaoTalk_20230104_231348768.jpg?table=block&id=4e2b4da9-cbd4-44c0-b36b-a890e6cab220&cache=v2" alt="image"/>
+            <div>Let's use GraphQL using apollo client</div>
+        </div>
+    ]]></description>
+            <link>https://lovelyj3k.vercel.app/apollo-gettings-started-query</link>
+            <guid isPermaLink="true">https://lovelyj3k.vercel.app/apollo-gettings-started-query</guid>
+            <pubDate>Sat, 25 Jun 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[About GraphQL]]></title>
+            <description><![CDATA[
+        <div>
+            <img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fac7e27dc-7967-49ca-a9b3-55e73ce2765e%2Fb1161ba1-6d74-407a-8ab2-8c14408d74a9%2F72514247.jfif?table=block&id=0d4e4e5f-1e80-4f89-b353-a213e14e3090&cache=v2" alt="image"/>
+            <div>Learn GraphQL 🙄</div>
+        </div>
+    ]]></description>
+            <link>https://lovelyj3k.vercel.app/about-graphql</link>
+            <guid isPermaLink="true">https://lovelyj3k.vercel.app/about-graphql</guid>
+            <pubDate>Tue, 21 Jun 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Applying google analytics to Next.js]]></title>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" alt="image"/>
+            <div>Let's understand the principle and apply ga to next.js 😎</div>
+        </div>
+    ]]></description>
+            <link>https://lovelyj3k.vercel.app/how-to-apply-ga-to-next.js</link>
+            <guid isPermaLink="true">https://lovelyj3k.vercel.app/how-to-apply-ga-to-next.js</guid>
+            <pubDate>Fri, 17 Jun 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[About open source license(revalidate)]]></title>
+            <description><![CDATA[
+        <div>
+            <img src="undefined" alt="image"/>
+            <div>Briefly learn about the open source license, and apply the license to your source code uploaded on github 🙂</div>
+        </div>
+    ]]></description>
+            <link>https://lovelyj3k.vercel.app/about-opensource-license</link>
+            <guid isPermaLink="true">https://lovelyj3k.vercel.app/about-opensource-license</guid>
+            <pubDate>Fri, 10 Jun 2022 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

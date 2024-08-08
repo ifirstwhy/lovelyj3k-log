@@ -49,7 +49,7 @@ const PostCard: React.FC<Props> = ({ data, showMedia }) => {
             <p>{data.summary}</p>
           </div>
           <div className="tags">
-            { data.tags && data.tags.filter((tag: string) => tag !== "6::🛠️ 기타::Pinned")
+            { data.tags && data.tags.filter((tag: string) => tag !== "6::📦 기타::Pinned")
                   .map((tag: string, idx: number) => (
                 <Tag key={idx}>{tag}</Tag>
               ))}

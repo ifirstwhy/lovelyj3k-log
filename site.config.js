@@ -3,7 +3,7 @@ const CONFIG = {
   profile: {
     name: "J3K",
     image: "/avatar.png", // 아바타 이미지 경로
-    role: "< VVorlcl />",
+    role: "< vvorlcl />",
     bio: "",
     email: "",
     linkedin: "",

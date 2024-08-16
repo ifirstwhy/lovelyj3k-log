@@ -10,7 +10,7 @@ jobs:
   cron:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Install Vercel CLI (Vercel CLI 설치)
         run: yarn add vercel@latest

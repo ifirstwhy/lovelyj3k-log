@@ -6,7 +6,7 @@ import {filterPosts} from "../libs/utils/notion";
 
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
     const posts = filterPosts(await getPosts())
-    const dynamicPaths = posts.map((post) => `${CONFIG.link}/${post.slug}`)
+    const dynamicPaths = posts.map((post) => `${CONFIG.link}${post.slug}`)
 
     // Create an array of fields, each with a loc and lastmod
     const fields: ISitemapField[] = dynamicPaths.map((path) => ({

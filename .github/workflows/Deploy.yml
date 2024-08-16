@@ -1,4 +1,4 @@
-name: Auto Deploy StaticPage Every Day
+name: Deploy StaticPage
 
 env:
   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}

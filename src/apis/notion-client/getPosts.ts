@@ -24,12 +24,12 @@ function getDateValue(prop: any): { start_date: string } | null {
   return { start_date: prop.date.start }
 }
 
-function getFileValue(prop: any): string | undefined {
-  if (!prop || prop.type !== "files") return undefined
+function getFileValue(prop: any): string | null {
+  if (!prop || prop.type !== "files") return null
   const files = prop.files || []
-  if (!files.length) return undefined
+  if (!files.length) return null
   const file = files[0]
-  return file.type === "external" ? file.external?.url : file.file?.url
+  return file.type === "external" ? (file.external?.url ?? null) : (file.file?.url ?? null)
 }
 
 export const getPosts = async (): Promise<TPosts> => {
@@ -55,7 +55,7 @@ export const getPosts = async (): Promise<TPosts> => {
         id: page.id.replace(/-/g, ""),
         title,
         slug: getTextValue(props.slug || props.Slug),
-        date: getDateValue(props.date || props.Date) as { start_date: string },
+        date: getDateValue(props.date || props.Date) ?? { start_date: "" },
         type: getSelectValue(props.type || props.Type) as any,
         status: getSelectValue(props.status || props.Status) as any,
         tags: getSelectValue(props.tags || props.Tags),

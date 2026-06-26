@@ -25,11 +25,25 @@ function getDateValue(prop: any): { start_date: string } | null {
 }
 
 function getFileValue(prop: any): string | null {
-  if (!prop || prop.type !== "files") return null
+  if (!prop) return null
+  if (prop.type === "url") return prop.url || null
+  if (prop.type === "rich_text") {
+    const text = prop.rich_text?.map((t: any) => t.plain_text).join("") || ""
+    return text || null
+  }
+  if (prop.type !== "files") return null
   const files = prop.files || []
   if (!files.length) return null
   const file = files[0]
   return file.type === "external" ? (file.external?.url ?? null) : (file.file?.url ?? null)
+}
+
+function getCoverUrl(page: any): string | null {
+  const cover = page.cover
+  if (!cover) return null
+  if (cover.type === "external") return cover.external?.url ?? null
+  if (cover.type === "file") return cover.file?.url ?? null
+  return null
 }
 
 export const getPosts = async (): Promise<TPosts> => {
@@ -61,7 +75,7 @@ export const getPosts = async (): Promise<TPosts> => {
         tags: getSelectValue(props.tags || props.Tags),
         category: getSelectValue(props.category || props.Category),
         summary: getTextValue(props.summary || props.Summary),
-        thumbnail: getFileValue(props.thumbnail || props.Thumbnail),
+        thumbnail: getFileValue(props.thumbnail || props.Thumbnail) ?? getCoverUrl(page),
         createdTime: new Date((page as any).created_time).toString(),
         fullWidth: false,
         author: [],

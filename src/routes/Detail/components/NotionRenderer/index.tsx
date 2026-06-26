@@ -1,77 +1,46 @@
-import dynamic from "next/dynamic"
-import Image from "next/image"
-import Link from "next/link"
-import { ExtendedRecordMap } from "notion-types"
-import useScheme from "src/hooks/useScheme"
-
-// core styles shared by all of react-notion-x (required)
-import "react-notion-x/src/styles.css"
-
-// used for code syntax highlighting (optional)
-import "prismjs/themes/prism-tomorrow.css"
-
-// used for rendering equations (optional)
-
-import "katex/dist/katex.min.css"
 import { FC } from "react"
+import ReactMarkdown from "react-markdown"
+import remarkGfm from "remark-gfm"
+import rehypeRaw from "rehype-raw"
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter"
+import { oneDark } from "react-syntax-highlighter/dist/cjs/styles/prism"
 import styled from "@emotion/styled"
 
-const _NotionRenderer = dynamic(
-  () => import("react-notion-x").then((m) => m.NotionRenderer),
-  { ssr: false }
-)
-
-const Code = dynamic(() =>
-  import("react-notion-x/build/third-party/code").then(async (m) =>  m.Code )
-)
-
-const Collection = dynamic(() =>
-  import("react-notion-x/build/third-party/collection").then(
-    (m) => m.Collection
-  )
-)
-const Equation = dynamic(() =>
-  import("react-notion-x/build/third-party/equation").then((m) => m.Equation)
-)
-const Pdf = dynamic(
-  () => import("react-notion-x/build/third-party/pdf").then((m) => m.Pdf),
-  {
-    ssr: false,
-  }
-)
-const Modal = dynamic(
-  () => import("react-notion-x/build/third-party/modal").then((m) => m.Modal),
-  {
-    ssr: false,
-  }
-)
-
-const mapPageUrl = (id: string) => {
-  return "https://www.notion.so/" + id.replace(/-/g, "")
-}
-
 type Props = {
-  recordMap: ExtendedRecordMap
+  markdown: string
 }
 
-const NotionRenderer: FC<Props> = ({ recordMap }) => {
-  const [scheme] = useScheme()
+const NotionRenderer: FC<Props> = ({ markdown }) => {
   return (
     <StyledWrapper>
-      <_NotionRenderer
-        darkMode={scheme === "dark"}
-        recordMap={recordMap}
+      <ReactMarkdown
+        remarkPlugins={[remarkGfm]}
+        rehypePlugins={[rehypeRaw]}
         components={{
-          Code,
-          Collection,
-          Equation,
-          Modal,
-          Pdf,
-          nextImage: Image,
-          nextLink: Link,
+          code({ node, inline, className, children, ...props }: any) {
+            const match = /language-(\w+)/.exec(className || "")
+            return !inline && match ? (
+              <SyntaxHighlighter
+                style={oneDark}
+                language={match[1]}
+                PreTag="div"
+                {...props}
+              >
+                {String(children).replace(/\n$/, "")}
+              </SyntaxHighlighter>
+            ) : (
+              <code className={className} {...props}>
+                {children}
+              </code>
+            )
+          },
+          img({ src, alt }: any) {
+            return <img src={src} alt={alt || ""} style={{ maxWidth: "100%", borderRadius: "0.5rem" }} />
+          },
         }}
-        mapPageUrl={mapPageUrl}
-      />
+      >
+        {markdown}
+      </ReactMarkdown>
     </StyledWrapper>
   )
 }
@@ -79,14 +48,87 @@ const NotionRenderer: FC<Props> = ({ recordMap }) => {
 export default NotionRenderer
 
 const StyledWrapper = styled.div`
-  /* // TODO: why render? */
-  .notion-collection-page-properties {
-    display: none !important;
+  line-height: 1.75;
+  font-size: 1rem;
+  word-break: break-word;
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 1.3;
   }
-  .notion-page {
-    padding: 0;
+  h1 { font-size: 1.875rem; }
+  h2 { font-size: 1.5rem; border-bottom: 1px solid rgba(128,128,128,0.2); padding-bottom: 0.3rem; }
+  h3 { font-size: 1.25rem; }
+
+  p { margin-bottom: 1rem; }
+
+  a {
+    color: #3b82f6;
+    text-decoration: underline;
+    &:hover { opacity: 0.8; }
   }
-  .notion-list {
+
+  ul, ol {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+  }
+  ul { list-style-type: disc; }
+  ol { list-style-type: decimal; }
+  li { margin-bottom: 0.25rem; }
+
+  blockquote {
+    border-left: 4px solid rgba(128,128,128,0.4);
+    padding-left: 1rem;
+    margin: 1rem 0 1rem 0;
+    color: rgba(128,128,128,0.9);
+    font-style: italic;
+  }
+
+  code {
+    background: rgba(128,128,128,0.15);
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.25rem;
+    font-size: 0.875em;
+    font-family: monospace;
+  }
+
+  pre {
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    overflow: auto;
+    > div {
+      border-radius: 0.5rem !important;
+    }
+  }
+
+  img {
+    max-width: 100%;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+  }
+
+  table {
     width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+  }
+  th, td {
+    border: 1px solid rgba(128,128,128,0.3);
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+  }
+  th { font-weight: 700; background: rgba(128,128,128,0.1); }
+
+  hr {
+    border: none;
+    border-top: 1px solid rgba(128,128,128,0.2);
+    margin: 1.5rem 0;
+  }
+
+  input[type="checkbox"] {
+    margin-right: 0.5rem;
   }
 `
